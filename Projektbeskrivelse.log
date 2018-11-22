@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.20)  22 NOV 2018 08:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.19)  22 NOV 2018 13:55
 entering extended mode
 **./Projektbeskrivelse.tex
 (Projektbeskrivelse.tex
@@ -72,10 +72,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2018/09/26 3.24 The Babel package
+Package: babel 2018/11/13 3.27 The Babel package
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2018/09/26 3.24 Babel switching mechanism
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
@@ -88,7 +88,7 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2018/09/26 3.24 Babel common definitions
+File: babel.def 2018/11/13 3.27 Babel common definitions
 \babel@savecnt=\count91
 \U@D=\dimen113
 
@@ -175,7 +175,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-))
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty"
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
@@ -488,7 +488,32 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Cskip=\skip48
 )
 \c@@todonotes@numberoftodonotes=\count129
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count130
+\lst@gtempboxa=\box39
+\lst@token=\toks40
+\lst@length=\count131
+\lst@currlwidth=\dimen171
+\lst@column=\count132
+\lst@pos=\count133
+\lst@lostspace=\dimen172
+\lst@width=\dimen173
+\lst@newlines=\count134
+\lst@lineno=\count135
+\lst@maxwidth=\dimen174
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count136
+\lst@skipnumbers=\count137
+\lst@framebox=\box40
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+
 (Projektbeskrivelse.aux)
 \openout1 = `Projektbeskrivelse.aux'.
 
@@ -507,17 +532,17 @@ LaTeX Font Info:    ... okay on input line 5.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
-\scratchdimen=\dimen171
-\scratchbox=\box39
-\nofMPsegments=\count131
-\nofMParguments=\count132
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count133
-\MPscratchDim=\dimen172
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count138
+\scratchdimen=\dimen175
+\scratchbox=\box41
+\nofMPsegments=\count139
+\nofMParguments=\count140
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count141
+\MPscratchDim=\dimen176
+\MPnumerator=\count142
+\makeMPintoPDFobject=\count143
+\everyMPtoPDFconversion=\toks42
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -545,12 +570,7 @@ Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+))))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -610,6 +630,7 @@ most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
 loading the todonotes package. on input line 5.
 
+\c@lstlisting=\count144
 (Tekst/Forside.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
@@ -620,18 +641,18 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 (Tekst/Projektafgraensning.tex) [3] (Tekst/Kravspecifikation.tex) [4]
 (Projektbeskrivelse.aux) ) 
 Here is how much of TeX's memory you used:
- 14251 strings out of 492970
- 273548 string characters out of 3135854
- 333839 words of memory out of 3000000
- 17812 multiletter control sequences out of 15000+200000
+ 15592 strings out of 492969
+ 292522 string characters out of 3135846
+ 354119 words of memory out of 3000000
+ 19142 multiletter control sequences out of 15000+200000
  10111 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,5n,56p,431b,595s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,5n,56p,476b,591s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Projektbeskrivelse.pdf (5 pages, 54094 bytes).
+Output written on Projektbeskrivelse.pdf (5 pages, 53780 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

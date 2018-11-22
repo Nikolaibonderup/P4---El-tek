@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.20)  22 NOV 2018 08:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.19)  22 NOV 2018 13:55
 entering extended mode
 **./Forside.tex
 (Forside.tex
@@ -223,26 +223,24 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no D in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no J in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
 
-Overfull \hbox (3276.74998pt too wide) in paragraph at lines 30--44
+Overfull \hbox (3276.74998pt too wide) in paragraph at lines 30--45
  []$[]$ 
  []
 
 
-Overfull \hbox (3276.74998pt too wide) in paragraph at lines 30--44
+Overfull \hbox (3276.74998pt too wide) in paragraph at lines 30--45
  []$ 
  []
 
 ! Undefined control sequence.
-l.54 {\large
+l.55 {\large
              \today}\\[2cm] % Date, change the \today to a set date if you w...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -251,7 +249,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.54 {\large \today
+l.55 {\large \today
                    }\\[2cm] % Date, change the \today to a set date if you w...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -266,7 +264,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 {\large \today}\\
+l.55 {\large \today}\\
                       [2cm] % Date, change the \today to a set date if you w...
 
 Your command was ignored.
@@ -280,7 +278,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 \end{titlepage}
+l.61 \end{titlepage}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -294,10 +292,10 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 22 strings out of 492970
- 305 string characters out of 3135854
- 57201 words of memory out of 3000000
- 3992 multiletter control sequences out of 15000+200000
+ 22 strings out of 492969
+ 305 string characters out of 3135846
+ 57202 words of memory out of 3000000
+ 3993 multiletter control sequences out of 15000+200000
  4595 words of font info for 17 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  20i,3n,18p,139b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
