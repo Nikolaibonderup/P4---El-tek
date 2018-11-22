@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.20)  20 NOV 2018 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.20)  22 NOV 2018 08:31
 entering extended mode
 **./Projektbeskrivelse.tex
 (Projektbeskrivelse.tex
@@ -610,27 +610,30 @@ most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
 loading the todonotes package. on input line 5.
 
-(Tekst/Problemanalyse.tex) (Tekst/Forside.tex [1
+(Tekst/Forside.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+[1
 
-{C:/Users/nikol/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (Tekst/Pro
-blemformulering.tex)
-(Tekst/Projektafgraensning.tex) (Tekst/Kravspecifikation.tex)
+{C:/Users/nikol/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+(Tekst/Problemanalyse.tex) [1] (Tekst/Problemformulering.tex) [2]
+(Tekst/Projektafgraensning.tex) [3] (Tekst/Kravspecifikation.tex) [4]
 (Projektbeskrivelse.aux) ) 
 Here is how much of TeX's memory you used:
- 13754 strings out of 492970
- 268397 string characters out of 3135854
- 332839 words of memory out of 3000000
- 17318 multiletter control sequences out of 15000+200000
- 9505 words of font info for 34 fonts, out of 3000000 for 9000
+ 14251 strings out of 492970
+ 273548 string characters out of 3135854
+ 333839 words of memory out of 3000000
+ 17812 multiletter control sequences out of 15000+200000
+ 10111 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,5n,56p,431b,260s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,5n,56p,431b,595s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Projektbeskrivelse.pdf (1 page, 43307 bytes).
+Output written on Projektbeskrivelse.pdf (5 pages, 54094 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 37 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
