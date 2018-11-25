@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.19)  25 NOV 2018 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.19)  25 NOV 2018 20:02
 entering extended mode
 **./Projektbeskrivelse.tex
 (Projektbeskrivelse.tex
@@ -488,7 +488,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Cskip=\skip48
 )
 \c@@todonotes@numberoftodonotes=\count129
-))
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count130
 \lst@gtempboxa=\box39
@@ -514,6 +514,52 @@ File: listings.cfg 2018/09/02 1.7 listings configuration
 ))
 Package: listings 2018/09/02 1.7 (Carsten Heinz)
 
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count138
+\float@exts=\toks41
+\float@box=\box41
+\@float@everytoks=\toks42
+\@floatcapt=\box42
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen175
+\captionmargin@=\dimen176
+\captionwidth=\dimen177
+\caption@tempdima=\dimen178
+\caption@indent=\dimen179
+\caption@parindent=\dimen180
+\caption@hangindent=\dimen181
+)
+\c@caption@flags=\count139
+\c@ContinuedFloat=\count140
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+)
+\c@subfigure=\count141
+\c@subtable=\count142
+)
+Package caption Info: We need package `newfloat' on input line 11.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\newfloat.sty"
+Package: newfloat 2018/03/04 v1.1a Defining new floating environments (AR)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count143
+\rotFPtop=\skip49
+\rotFPbot=\skip50
+\rot@float@box=\box43
+\rot@mess@toks=\toks43
+)
 (Projektbeskrivelse.aux)
 \openout1 = `Projektbeskrivelse.aux'.
 
@@ -532,17 +578,17 @@ LaTeX Font Info:    ... okay on input line 5.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count138
-\scratchdimen=\dimen175
-\scratchbox=\box41
-\nofMPsegments=\count139
-\nofMParguments=\count140
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count141
-\MPscratchDim=\dimen176
-\MPnumerator=\count142
-\makeMPintoPDFobject=\count143
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count144
+\scratchdimen=\dimen182
+\scratchbox=\box44
+\nofMPsegments=\count145
+\nofMParguments=\count146
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count147
+\MPscratchDim=\dimen183
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
+\everyMPtoPDFconversion=\toks45
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -630,40 +676,98 @@ most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
 loading the todonotes package. on input line 5.
 
-\c@lstlisting=\count144
+\c@lstlisting=\count150
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
 (Tekst/Forside.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 [1
 
 {C:/Users/nikol/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
-(Tekst/Indledning.tex) [1] (Tekst/Kravspecifikation.tex
-("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)) [2]
-(Tekst/Problemanalyse.tex) [3] (Tekst/Problemformulering.tex)
-Overfull \hbox (20.40698pt too wide) in paragraph at lines 6--25
-[]\OT1/cmr/m/n/12 Til prob-lem-for-mu-lerin-gen kan flere un-dersprgsmal ud-f
-ormes: Hvor-dan kan et mikrokon-
+(Tekst/Indledning.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
  []
 
-[4] (Tekst/Projektafgraensning.tex) [5] (Projektbeskrivelse.aux) ) 
+) [1] (Tekst/Kravspecifikation.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
+) [2]
+(Tekst/Problemanalyse.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+) [3] (Tekst/Problemformulering.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+) [4] (Tekst/Projektafgraensning.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+<Billeder/Koncept_turret.png, id=25, 690.32906pt x 453.19313pt>
+File: Billeder/Koncept_turret.png Graphic file (type png)
+<use Billeder/Koncept_turret.png>
+Package pdftex.def Info: Billeder/Koncept_turret.png  used on input line 8.
+(pdftex.def)             Requested size: 276.12672pt x 181.27403pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+<Billeder/Fysik_koncept.png, id=27, 896.59969pt x 394.47375pt>
+File: Billeder/Fysik_koncept.png Graphic file (type png)
+<use Billeder/Fysik_koncept.png>
+Package pdftex.def Info: Billeder/Fysik_koncept.png  used on input line 19.
+(pdftex.def)             Requested size: 358.63351pt x 157.7867pt.
+) [5 <./Billeder/Koncept_turret.png>] [6 <./Billeder/Fysik_koncept.png>]
+(Tekst/Tidsplan.tex
+<Billeder/Tidsplan_23_11_2018.png, id=37, 638.68613pt x 363.759pt>
+File: Billeder/Tidsplan_23_11_2018.png Graphic file (type png)
+<use Billeder/Tidsplan_23_11_2018.png>
+Package pdftex.def Info: Billeder/Tidsplan_23_11_2018.png  used on input line 6
+.
+(pdftex.def)             Requested size: 510.94958pt x 291.0076pt.
+) [7 <./Billeder/Tidsplan_23_11_2018.png>]
+(Projektbeskrivelse.aux) ) 
 Here is how much of TeX's memory you used:
- 15848 strings out of 492969
- 295464 string characters out of 3135846
- 354119 words of memory out of 3000000
- 19392 multiletter control sequences out of 15000+200000
+ 17263 strings out of 492969
+ 320626 string characters out of 3135846
+ 382338 words of memory out of 3000000
+ 20778 multiletter control sequences out of 15000+200000
  10111 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,5n,56p,675b,591s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmti12.pfb>
-Output written on Projektbeskrivelse.pdf (6 pages, 66721 bytes).
+ 64i,9n,94p,663b,591s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Projektbeskrivelse.pdf (8 pages, 541381 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
