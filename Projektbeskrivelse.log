@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.19)  22 NOV 2018 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.19)  25 NOV 2018 15:16
 entering extended mode
 **./Projektbeskrivelse.tex
 (Projektbeskrivelse.tex
@@ -637,24 +637,33 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 [1
 
 {C:/Users/nikol/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
-(Tekst/Problemanalyse.tex) [1] (Tekst/Problemformulering.tex) [2]
-(Tekst/Projektafgraensning.tex) [3] (Tekst/Kravspecifikation.tex) [4]
-(Projektbeskrivelse.aux) ) 
+(Tekst/Indledning.tex) [1] (Tekst/Kravspecifikation.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)) [2]
+(Tekst/Problemanalyse.tex) [3] (Tekst/Problemformulering.tex)
+Overfull \hbox (20.40698pt too wide) in paragraph at lines 6--25
+[]\OT1/cmr/m/n/12 Til prob-lem-for-mu-lerin-gen kan flere un-dersprgsmal ud-f
+ormes: Hvor-dan kan et mikrokon-
+ []
+
+[4] (Tekst/Projektafgraensning.tex) [5] (Projektbeskrivelse.aux) ) 
 Here is how much of TeX's memory you used:
- 15592 strings out of 492969
- 292522 string characters out of 3135846
+ 15848 strings out of 492969
+ 295464 string characters out of 3135846
  354119 words of memory out of 3000000
- 19142 multiletter control sequences out of 15000+200000
+ 19392 multiletter control sequences out of 15000+200000
  10111 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,5n,56p,476b,591s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Projektbeskrivelse.pdf (5 pages, 53780 bytes).
+ 64i,5n,56p,675b,591s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmti12.pfb>
+Output written on Projektbeskrivelse.pdf (6 pages, 66721 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
