@@ -1,0 +1,2 @@
+Slave MAC: 00066686745c
+Slave kode: 1234
