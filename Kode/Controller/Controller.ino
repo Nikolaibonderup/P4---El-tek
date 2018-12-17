@@ -39,6 +39,7 @@ bool control = 1;
 void loop()
 {
   //bluetooth.print("$$$");
+  //Serial.print("Enter loop");
   
   if(control){
     bluetooth.print("$$$");delay(1000);
