@@ -2,12 +2,23 @@
 
 \input{Tekst/PageSetup}
 
+
+
+
 \begin{document}
+%%Forside
+\input{Tekst/Forside}
+
+%%%%---------------------------------------------
+%%Fysik Rapport
+%%%%---------------------------------------------
+\renewcommand{\contentsname}{Indholdsfortegnelse}
+\tableofcontents
+\newpage
+
 %%%%---------------------------------------------
 %%Projektbeskrivelse
 %%%%---------------------------------------------
-%%Forside
-\input{Tekst/Forside}
 
 %%Indledning
 \newpage
@@ -36,9 +47,15 @@
 %%%%---------------------------------------------
 %%Fysik Rapport
 %%%%---------------------------------------------
+\section{Systembeskrivelse}
 
+\input{Tekst/Teori}
+\newpage
 
+\input{Tekst/ProduktFlow}
+\newpage
 
+\input{Tekst/Bilag}
 
 
 \end{document}
