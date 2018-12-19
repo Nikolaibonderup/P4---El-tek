@@ -7,4 +7,7 @@
 \contentsline {section}{\numberline {6}Tidsplan}{8}
 \contentsline {section}{\numberline {7}Systembeskrivelse}{9}
 \contentsline {subsection}{\numberline {7.1}Fysik teori}{9}
-\contentsline {subsection}{\numberline {7.2}Elektriske kredsl\IeC {\o }b}{10}
+\contentsline {subsection}{\numberline {7.2}Fors\IeC {\o }g}{10}
+\contentsline {subsubsection}{\numberline {7.2.1}Apparaturliste}{10}
+\contentsline {subsubsection}{\numberline {7.2.2}Fremgangsm\IeC {\r a}de}{11}
+\contentsline {subsection}{\numberline {7.3}Elektriske kredsl\IeC {\o }b}{12}

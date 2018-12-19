@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.20)  18 DEC 2018 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.20)  19 DEC 2018 10:08
 entering extended mode
 **./FysikRapport.tex
 (FysikRapport.tex
@@ -759,41 +759,71 @@ Package pdftex.def Info: Billeder/Tidsplan_23_11_2018.png  used on input line 6
 .
 (pdftex.def)             Requested size: 510.94958pt x 291.0076pt.
 ) (Tekst/Teori.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
 [8 <./Billeder/Tidsplan_23_11_2018.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-) [9] (Tekst/ProduktFlow.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+<Billeder/Opstilling.png, id=51, 963.6pt x 722.7pt>
+File: Billeder/Opstilling.png Graphic file (type png)
+<use Billeder/Opstilling.png>
+Package pdftex.def Info: Billeder/Opstilling.png  used on input line 136.
+(pdftex.def)             Requested size: 385.43317pt x 289.07487pt.
+[10]) [11 <./Billeder/Opstilling.png>] (Tekst/ProduktFlow.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<Billeder/Kredsloeb1.png, id=51, 603.25375pt x 492.84125pt>
+<Billeder/Kredsloeb1.png, id=60, 603.25375pt x 492.84125pt>
 File: Billeder/Kredsloeb1.png Graphic file (type png)
 <use Billeder/Kredsloeb1.png>
 Package pdftex.def Info: Billeder/Kredsloeb1.png  used on input line 9.
@@ -803,43 +833,50 @@ Overfull \hbox (39.02518pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
-<Billeder/Flowchart1.png, id=52, 565.36218pt x 429.10312pt>
+<Billeder/Flowchart1.png, id=61, 565.36218pt x 429.10312pt>
 File: Billeder/Flowchart1.png Graphic file (type png)
 <use Billeder/Flowchart1.png>
 Package pdftex.def Info: Billeder/Flowchart1.png  used on input line 17.
 (pdftex.def)             Requested size: 452.29036pt x 343.28296pt.
-[10 <./Billeder/Kredsloeb1.png>] [11 <./Billeder/Flowchart1.png>] [12]
-<Billeder/Kredsloeb2.png, id=65, 543.02875pt x 362.35374pt>
+[12 <./Billeder/Kredsloeb1.png>] [13 <./Billeder/Flowchart1.png>] [14]
+<Billeder/Kredsloeb2.png, id=74, 543.02875pt x 362.35374pt>
 File: Billeder/Kredsloeb2.png Graphic file (type png)
 <use Billeder/Kredsloeb2.png>
 Package pdftex.def Info: Billeder/Kredsloeb2.png  used on input line 89.
 (pdftex.def)             Requested size: 434.42357pt x 289.88339pt.
-<Billeder/Flowchart2.png, id=66, 410.53375pt x 681.54625pt>
+<Billeder/Flowchart2.png, id=75, 410.53375pt x 681.54625pt>
 File: Billeder/Flowchart2.png Graphic file (type png)
 <use Billeder/Flowchart2.png>
 Package pdftex.def Info: Billeder/Flowchart2.png  used on input line 97.
 (pdftex.def)             Requested size: 328.42744pt x 545.23775pt.
- [13 <./Billeder/Kredsloeb2.png>] [14 <./Billeder/Flowchart2.png>]) [15]
-(Tekst/Bilag.tex) [16] (FysikRapport.aux) ) 
+ [15 <./Billeder/Kredsloeb2.png>] [16 <./Billeder/Flowchart2.png>]) [17]
+(Tekst/Bilag.tex
+<Billeder/Maeldata.png, id=87, 432.4155pt x 290.88675pt>
+File: Billeder/Maeldata.png Graphic file (type png)
+<use Billeder/Maeldata.png>
+Package pdftex.def Info: Billeder/Maeldata.png  used on input line 6.
+(pdftex.def)             Requested size: 432.41444pt x 290.88603pt.
+) [18 <./Billeder/Maeldata.png>] (FysikRapport.aux) ) 
 Here is how much of TeX's memory you used:
- 17298 strings out of 492970
- 321460 string characters out of 3135854
- 384373 words of memory out of 3000000
- 20796 multiletter control sequences out of 15000+200000
+ 17310 strings out of 492970
+ 321730 string characters out of 3135854
+ 385391 words of memory out of 3000000
+ 20806 multiletter control sequences out of 15000+200000
  10725 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,9n,94p,657b,591s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on FysikRapport.pdf (17 pages, 633726 bytes).
+ 64i,14n,94p,657b,591s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on FysikRapport.pdf (19 pages, 2536438 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 122 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
