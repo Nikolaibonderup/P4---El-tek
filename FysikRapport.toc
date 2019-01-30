@@ -1,13 +1,16 @@
 \babel@toc {english}{}
-\contentsline {section}{\numberline {1}Indledning}{2}
-\contentsline {section}{\numberline {2}Kravspecifikationer}{3}
-\contentsline {section}{\numberline {3}Projektanalyse}{4}
-\contentsline {section}{\numberline {4}Projektformulering}{5}
-\contentsline {section}{\numberline {5}Projektafgr\IeC {\ae }nsning}{6}
-\contentsline {section}{\numberline {6}Tidsplan}{8}
-\contentsline {section}{\numberline {7}Systembeskrivelse}{9}
-\contentsline {subsection}{\numberline {7.1}Fysik teori}{9}
-\contentsline {subsection}{\numberline {7.2}Fors\IeC {\o }g}{10}
-\contentsline {subsubsection}{\numberline {7.2.1}Apparaturliste}{10}
-\contentsline {subsubsection}{\numberline {7.2.2}Fremgangsm\IeC {\r a}de}{11}
-\contentsline {subsection}{\numberline {7.3}Elektriske kredsl\IeC {\o }b}{12}
+\contentsline {section}{\numberline {1}Indledning}{2}{section.1}
+\contentsline {section}{\numberline {2}Kravspecifikationer}{3}{section.2}
+\contentsline {section}{\numberline {3}Projektanalyse}{4}{section.3}
+\contentsline {section}{\numberline {4}Projektformulering}{5}{section.4}
+\contentsline {section}{\numberline {5}Projektafgr\IeC {\ae }nsning}{6}{section.5}
+\contentsline {section}{\numberline {6}Tidsplan}{8}{section.6}
+\contentsline {section}{\numberline {7}Systembeskrivelse}{9}{section.7}
+\contentsline {subsection}{\numberline {7.1}Fysik teori}{9}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Fors\IeC {\o }g}{11}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Apparaturliste}{11}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Fremgangsm\IeC {\r a}de}{11}{subsubsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.3}Resultatbehandling}{12}{subsubsection.7.2.3}
+\contentsline {subsubsection}{\numberline {7.2.4}Diskussion}{16}{subsubsection.7.2.4}
+\contentsline {subsection}{\numberline {7.3}Elektriske kredsl\IeC {\o }b}{17}{subsection.7.3}
+\contentsline {section}{\numberline {8}Litteraturliste}{23}{section.8}

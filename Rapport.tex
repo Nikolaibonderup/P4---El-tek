@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+
+\input{Tekst/PageSetup}
+
+
+
+
+\begin{document}
+%%Forside
+\input{Tekst/Forside}
+
+%%%%---------------------------------------------
+%%Titelblad
+%%%%---------------------------------------------
+\subsection*{Titelblad}
+\textbf{Projekttitel} Sensorer og datakommunikation\\
+\textbf{Uddannelsessted og klasse} Aalborg tekniske Gymnasium, Q16\\
+\textbf{Fag} Teknikfag, Elektronik A\\
+\textbf{Projektperiode} x/x/2018 - x/1/2019\\
+\textbf{Projektet udarbejdet af:}\\
+
+
+
+
+
+
+%%%%---------------------------------------------
+%%Rapport
+%%%%---------------------------------------------
+\renewcommand{\contentsname}{Indholdsfortegnelse}
+\tableofcontents
+\newpage
+
+%%%%---------------------------------------------
+%%Projektbeskrivelse
+%%%%---------------------------------------------
+
+%%Indledning
+\newpage
+\input{Tekst/Indledning}
+
+%%Kravspecifikation
+\newpage
+\input{Projektbeskrivelse}
+
+%%%%---------------------------------------------
+%%Fysik Rapport
+%%%%---------------------------------------------
+\section{Systembeskrivelse}
+
+\input{Tekst/Teori}
+\newpage
+
+\input{Tekst/ProduktFlow}
+\newpage
+
+\input{Tekst/Konklusion}
+\newpage
+
+\input{Tekst/Kildeliste}
+\newpage
+
+\input{Tekst/Bilag}
+
+
+
+\end{document}
