@@ -1,4 +1,4 @@
-﻿//Først inkluderes ønskede elementer
+//Først inkluderes ønskede lementer
 #include <SoftwareSerial.h>  
 
 //Konstanter initieres
@@ -18,29 +18,27 @@ int buttonStateShoot = 0;
 int bluetoothTx = 2;  // TX-O pin til bluetooth mate, Arduino D2
 int bluetoothRx = 3;  // RX-I pin til bluetooth mate, Arduino D3
 
-Seriel bluetooth opstartes
 SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
 
 
 void setup() {
-  // pushbutton's pin sættes til at være input
+  // pushbutton's pin sættes til at være input:
   pinMode(buttonPinLeft, INPUT);
   pinMode(buttonPinRight, INPUT);
   pinMode(buttonPinUp, INPUT);
   pinMode(buttonPinDown, INPUT);
   pinMode(buttonPinShoot, INPUT);
-  //Seriel kommunkation påbegyndes
   Serial.begin(9600);
   bluetooth.begin(115200);  // Bluetooth Silver standard 115200bps
   bluetooth.print("$");  // Print tre gange individuelt for at starte kommando sekvens
   bluetooth.print("$");
-  bluetooth.print("$");  //Kommandow sekvens startet
+  bluetooth.print("$");  //Kommando sekvens startet
   delay(100);  // Delay for at sikre at den anden Bluesmirf Silver kan nå at svarer med CMD 
   //bluetooth.println("I");
   //bluetooth.println("C,00066686745c");   
   bluetooth.println("U,9600,N");  // baudrate skiftes midlertidigt til 9600, Ingen paritet
-  // 115200 baudrate kan være for hurtigt for stabil seriel kommunktion
-  bluetooth.begin(9600);  // Start bluetooth seriel at 9600
+  // 115200 baudrate kan være for hurtigt for stabil serial kommunktion
+  bluetooth.begin(9600);  // Start bluetooth serial at 9600
 
   Serial.print("Ended Setup");
 }
@@ -49,7 +47,6 @@ void setup() {
 bool control = 1;
 
 void loop() {
-  //Control sekvens og kommunikation påbegyndes 
   if(control){
     bluetooth.print("$$$");delay(1000);
     bluetooth.println("SM,1");delay(1000);
@@ -64,23 +61,22 @@ void loop() {
 
     //Serial.print("Ends");
   }
-    //Knaptryk registreres
+    //Knaptryk læses for at sende det vidre:
   buttonStateLeft = digitalRead(buttonPinLeft);
   buttonStateRight = digitalRead(buttonPinRight);
   buttonStateUp = digitalRead(buttonPinUp);
   buttonStateDown = digitalRead(buttonPinDown);
   buttonStateShoot = digitalRead(buttonPinShoot);
 
-//Alt efter hvilken knap som er blevet trykket sendes en "kommando karakter" til vores kanontårn
  if (buttonStateLeft == HIGH){
       bluetooth.print((char)'a');
       Serial.println('a');
-      delay(1000);
+      delay(250);
     }
  else if(buttonStateRight == HIGH){
       bluetooth.print((char)'b');
       Serial.println('b');
-      delay(1000);
+      delay(250);
  }
  else if(buttonStateUp == HIGH){
       bluetooth.print((char)'c');
@@ -95,19 +91,19 @@ void loop() {
   else if(buttonStateShoot == HIGH){
       bluetooth.print((char)'e');
       Serial.println('e');
-      delay(1000);
+      delay(250);
   }
-  if(bluetooth.available())  // Hvis en karakter er blevet sendt med bluetooth udføres følgene:
+  if(bluetooth.available())  // Hvis bluetooth har sent nogle karaktere
   {
-    // Alle karatere som er blevet sendt gennem bluetooth printes i serial monitor.
+    // sendes alle disse til serial monitor
     Serial.print((char)bluetooth.read());  
   }
-  if(Serial.available())  // Hvis noget er blevet skrevet i serial monitoren:
+  if(Serial.available())  // Hvis der står noget skrvet i serial monitor
   {
-    // sendes dette til bluetooth elementet og printes.
+    // Sendes alle karaktere som er printet i serial monitor til bluetooth
     
   }
    else {
-    // Sker der ikke noget
+    // Nsker der ingen ting
   }
 }
