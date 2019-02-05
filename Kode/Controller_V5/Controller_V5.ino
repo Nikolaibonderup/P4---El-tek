@@ -15,10 +15,6 @@ int buttonStateUp = 0;
 int buttonStateDown = 0;
 int buttonStateShoot = 0;
 
-int stepCount = 0;         // Antal trin som motoren har taget
-
-
-
 int bluetoothTx = 2;  // TX-O pin til bluetooth mate, Arduino D2
 int bluetoothRx = 3;  // RX-I pin til bluetooth mate, Arduino D3
 
@@ -26,17 +22,18 @@ SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
 
 
 void setup() {
-  // pushbutton's pin sættes til at være input:
+  // pushbutton's pin sættes til at være input
   pinMode(buttonPinLeft, INPUT);
   pinMode(buttonPinRight, INPUT);
   pinMode(buttonPinUp, INPUT);
   pinMode(buttonPinDown, INPUT);
   pinMode(buttonPinShoot, INPUT);
+  //Seriel kommunkation påbegyndes
   Serial.begin(9600);
   bluetooth.begin(115200);  // Bluetooth Silver standard 115200bps
   bluetooth.print("$");  // Print tre gange individuelt for at starte kommando sekvens
   bluetooth.print("$");
-  bluetooth.print("$");  //Kommanda sekvens startet
+  bluetooth.print("$");  //Kommandow sekvens startet
   delay(100);  // Delay for at sikre at den anden Bluesmirf Silver kan nå at svarer med CMD 
   //bluetooth.println("I");
   //bluetooth.println("C,00066686745c");   

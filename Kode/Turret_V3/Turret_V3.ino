@@ -8,30 +8,13 @@ const int ledPin = 13;
 
 int bluetoothTx = 2;  // TX-O pin of bluetooth mate, Arduino D2
 int bluetoothRx = 3;  // RX-I pin of bluetooth mate, Arduino D3
+const int R = 8;   //Drej til venstre
+const int L = 9;   //Drej til højre
+const int U = 10;   //Op
+const int D = 11;   //Ned
+const int S = 12;   //Skyd
 
 SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
-
-//stepper setup
-const int stepsPerRevolution = 200;  // change this to fit the number of steps per revolution
-// for your motor
-
-// Rotationer etableres med pins 8 til 11:
-Stepper StepFor(stepsPerRevolution, 8, 9, 10, 11);
-Stepper StepBac(stepsPerRevolution, 11, 10, 9, 8);
-// Rotationer etableres med pins 8 til 11:
-Stepper StepUp(stepsPerRevolution, 4, 5, 6, 7);
-Stepper StepDown(stepsPerRevolution, 7, 6, 5, 4);
-
-int stepCount = 0;         // number of steps the motor has taken
-
-// Montering: grøn cennector på h bro: grøn til null på den tre-sets gule connector med den sorte sprit streg
-// og gul til gul ledning på samme
-// Blå connector: gul til null og grøn til gul
-
-//Montering stor: Sort til OUT4, Grøn til OUT3, Blå til OUT2, Rød til OUT1
-
-//Montering af L298N: PIN 8 til input 1, PIN 9 til input 2, PIN 10 til input 3, PIN 11 til input 4.
-
 
 void setup()
 {
@@ -46,68 +29,59 @@ void setup()
   bluetooth.println("SM,0");
   // 115200 can be too fast at times for NewSoftSerial to relay the data reliably
   bluetooth.begin(9600);  // Start bluetooth serial at 9600
-
+  pinMode(R, OUTPUT);
+  pinMode(L, OUTPUT);
+  pinMode(U, OUTPUT);
+  pinMode(D, OUTPUT);
+  pinMode(S, OUTPUT);
 }
 
 void loop()
 {
+    digitalWrite(R, LOW);
+    digitalWrite(L, LOW);
+    digitalWrite(U, LOW);
+    digitalWrite(D, LOW);
+    digitalWrite(S, LOW);
   if(bluetooth.available())
     switch ((char)bluetooth.read()){
       case 'a':
-     for (stepCount == 0;stepCount<200; 1){
-     // step one step:
-     StepBac.step(1);
-     Serial.print("steps:");
-     Serial.println(stepCount);
-     stepCount++;
+     digitalWrite(R, LOW);
+     digitalWrite(L, HIGH);
+     delay(500);
+     Serial.println("a");
      delay(1);
-     }
-     Serial.println("done");
-      stepCount = 0;
      break;
       case 'b':
-      for (stepCount == 0;stepCount<200; 1){
-     // step one step:
-     StepFor.step(1);
-     Serial.print("steps:");
-     Serial.println(stepCount);
-     stepCount++;
+     digitalWrite(R, HIGH);
+     digitalWrite(L, LOW);
+     delay(500);
+     Serial.println("b");
      delay(1);
-    }
-    Serial.println("done");
-    stepCount = 0;
-    break;
-    case 'c':
-      for (stepCount == 0;stepCount<200; 1){
-     // step one step:
-     StepUp.step(1);
-     Serial.print("steps:");
-     Serial.println(stepCount);
-     stepCount++;
+     break;
+       case 'c':
+     digitalWrite(U, HIGH);
+     digitalWrite(D, LOW);
+     delay(500);
+     Serial.println("c");
      delay(1);
-    }
-    Serial.println("done");
-    stepCount = 0;
-    break;
-  case 'd':
-      for (stepCount == 0;stepCount<200; 1){
-     // step one step:
-     StepDown.step(1);
-     Serial.print("steps:");
-     Serial.println(stepCount);
-     stepCount++;
+     break;
+       case 'd':
+     digitalWrite(U, LOW);
+     digitalWrite(D, HIGH);
+     delay(500);
+     Serial.println("d");
      delay(1);
-    }
-    Serial.println("done");
-    stepCount = 0;
-    break;
-    case 'e':
-     //skal skyde på en eller anden måde
+     break;
+       case 'e':
+     digitalWrite(S, LOW);
+     delay(1000);
+     digitalWrite(S, HIGH);
+     delay(10000);
+     digitalWrite(S, LOW);
+     Serial.println("e");
      delay(1);
-    }
-    Serial.println("done");
-    stepCount = 0;
-    break;
+     break;
    }
   
   /*if(bluetooth.available())  // If the bluetooth sent any characters
