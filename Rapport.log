@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.19)  30 JAN 2019 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.19)  6 FEB 2019 21:32
 entering extended mode
 **./Rapport.tex
 (Rapport.tex
@@ -671,7 +671,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 ))
 (Rapport.aux
 
-LaTeX Warning: Label `fig:Resultatbehandling3' multiply defined.
+LaTeX Warning: Label `fig:mikrocontrollerprint' multiply defined.
+
+
+LaTeX Warning: Label `fig:print_test' multiply defined.
+
+
+LaTeX Warning: Label `fig:print_test' multiply defined.
 
 )
 \openout1 = `Rapport.aux'.
@@ -783,31 +789,45 @@ LaTeX Info: Redefining \nameref on input line 8.
 \@outlinefile=\write4
 \openout4 = `Rapport.out'.
 
- (Tekst/Forside.tex
-("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-) [1
+ (Tekst/Forside1.tex [1
 
 {C:/Users/nikol/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
 Underfull \hbox (badness 10000) in paragraph at lines 16--21
 
  []
 
-(Rapport.toc)
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 
+      [1] [2] (Rapport.toc [3])
 \tf@toc=\write5
 \openout5 = `Rapport.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.32 \newpage
-              [1] (Tekst/Indledning.tex
+ [4] (Tekst/Indledning.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-) [2] (Projektbeskrivelse.tex (Tekst/Problemanalyse.tex
+) [5] (Projektbeskrivelse.tex (Tekst/Problemanalyse.tex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
@@ -820,7 +840,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) [3] (Tekst/Problemformulering.tex
+) [6] (Tekst/Problemformulering.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -831,13 +851,13 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
-) [4]
+) [7]
 (Tekst/Projektafgraensning.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<Billeder/Koncept_turret.png, id=118, 690.32906pt x 453.19313pt>
+<Billeder/Koncept_turret.png, id=283, 690.32906pt x 453.19313pt>
 File: Billeder/Koncept_turret.png Graphic file (type png)
 <use Billeder/Koncept_turret.png>
 Package pdftex.def Info: Billeder/Koncept_turret.png  used on input line 8.
@@ -847,235 +867,432 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<Billeder/Fysik_koncept.png, id=120, 896.59969pt x 394.47375pt>
+<Billeder/Fysik_koncept.png, id=285, 896.59969pt x 394.47375pt>
 File: Billeder/Fysik_koncept.png Graphic file (type png)
 <use Billeder/Fysik_koncept.png>
 Package pdftex.def Info: Billeder/Fysik_koncept.png  used on input line 19.
 (pdftex.def)             Requested size: 358.63351pt x 157.7867pt.
-) [5 <./Billeder/Koncept_turret.png>] [6 <./Billeder/Fysik_koncept.png>]
+) [8 <./Billeder/Koncept_turret.png>] [9 <./Billeder/Fysik_koncept.png>]
 (Tekst/Kravspecifikation.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-) [7] (Tekst/Tidsplan.tex
-<Billeder/Tidsplan_23_11_2018.png, id=138, 638.68613pt x 363.759pt>
-File: Billeder/Tidsplan_23_11_2018.png Graphic file (type png)
-<use Billeder/Tidsplan_23_11_2018.png>
-Package pdftex.def Info: Billeder/Tidsplan_23_11_2018.png  used on input line 6
-.
-(pdftex.def)             Requested size: 510.94958pt x 291.0076pt.
-)) (Tekst/Teori.tex
-<Billeder/skrakast.png, id=139, 566.86781pt x 285.31593pt>
-File: Billeder/skrakast.png Graphic file (type png)
-<use Billeder/skrakast.png>
-Package pdftex.def Info: Billeder/skrakast.png  used on input line 7.
-(pdftex.def)             Requested size: 396.80476pt x 199.71979pt.
- [8 <./Billeder/Tidsplan_23_11_2018.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 12--14
+) [10] (Tekst/Tidsplan.tex
+<Billeder/Tidsplan_symboler.png, id=302, 249.18094pt x 138.5175pt>
+File: Billeder/Tidsplan_symboler.png Graphic file (type png)
+<use Billeder/Tidsplan_symboler.png>
+Package pdftex.def Info: Billeder/Tidsplan_symboler.png  used on input line 10.
+
+(pdftex.def)             Requested size: 124.59015pt x 69.25858pt.
+<Billeder/Tidsplan_1.png, id=303, 575.14874pt x 301.125pt>
+File: Billeder/Tidsplan_1.png Graphic file (type png)
+<use Billeder/Tidsplan_1.png>
+Package pdftex.def Info: Billeder/Tidsplan_1.png  used on input line 36.
+(pdftex.def)             Requested size: 460.11961pt x 240.90031pt.
+)) [11 <./Billeder/Tidsplan_symboler.png>] [12 <./Billeder/Tidsplan_1.png>] (Te
+kst/Systembeskrivelse.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+<Billeder/Kredsloeb1.png, id=317, 603.25375pt x 492.84125pt>
+File: Billeder/Kredsloeb1.png Graphic file (type png)
+<use Billeder/Kredsloeb1.png>
+Package pdftex.def Info: Billeder/Kredsloeb1.png  used on input line 11.
+(pdftex.def)             Requested size: 482.60365pt x 394.27351pt.
+
+Overfull \hbox (39.02518pt too wide) in paragraph at lines 11--12
+ [][] 
+ []
+
+[13]
+<Billeder/Flowchart1.png, id=322, 572.1375pt x 753.81625pt>
+File: Billeder/Flowchart1.png Graphic file (type png)
+<use Billeder/Flowchart1.png>
+Package pdftex.def Info: Billeder/Flowchart1.png  used on input line 19.
+(pdftex.def)             Requested size: 457.71062pt x 603.05383pt.
+
+Overfull \hbox (14.13214pt too wide) in paragraph at lines 19--20
+ [][] 
+ []
+
+[14 <./Billeder/Kredsloeb1.png>]
+Overfull \vbox (3.30035pt too high) has occurred while \output is active []
+
+
+[15 <./Billeder/Flowchart1.png>]
+Overfull \hbox (25.72495pt too wide) in paragraph at lines 36--37
+[]\OT1/cmr/m/n/12 Dette 9 volts bat-teri fun-gere som Ar-duinoens / mikro-con-t
+rollerens strmforsyning. 
+ []
+
+
+Overfull \hbox (32.87454pt too wide) in paragraph at lines 76--77
+[]\OT1/cmr/m/n/12 BlueSMiRF kom-po-nen-ten \Sil-ver mate" er for-bun-det til Ar
+-duinoen. BlueSMiRF'en
+ []
+
+
+Overfull \hbox (34.198pt too wide) in paragraph at lines 76--77
+\OT1/cmr/m/n/12 sender og mod-tager sig-naler fra Ar-duinoen. Ar-duinoen fun-ge
+rer som strmforsyning
+ []
+
+[16] [17]
+<Billeder/Kredsloeb2.png, id=343, 603.25375pt x 362.35374pt>
+File: Billeder/Kredsloeb2.png Graphic file (type png)
+<use Billeder/Kredsloeb2.png>
+Package pdftex.def Info: Billeder/Kredsloeb2.png  used on input line 90.
+(pdftex.def)             Requested size: 482.60365pt x 289.88339pt.
+
+Overfull \hbox (39.02518pt too wide) in paragraph at lines 90--91
+ [][] 
+ []
+
+<Billeder/Flowchart2.jpg, id=344, 410.53375pt x 633.36626pt>
+File: Billeder/Flowchart2.jpg Graphic file (type jpg)
+<use Billeder/Flowchart2.jpg>
+Package pdftex.def Info: Billeder/Flowchart2.jpg  used on input line 98.
+(pdftex.def)             Requested size: 328.42744pt x 506.6937pt.
+[18 <./Billeder/Kredsloeb2.png>] [19 <./Billeder/Flowchart2.jpg>]
+Overfull \hbox (32.87454pt too wide) in paragraph at lines 146--147
+[]\OT1/cmr/m/n/12 BlueSMiRF kom-po-nen-ten \Sil-ver mate" er for-bun-det til Ar
+-duinoen. BlueSMiRF'en
+ []
+
+
+Overfull \hbox (34.198pt too wide) in paragraph at lines 146--147
+\OT1/cmr/m/n/12 sender og mod-tager sig-naler fra Ar-duinoen. Ar-duinoen fun-ge
+rer som strmforsyning
+ []
+
+) [20] (Tekst/Hardware.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 5147) in paragraph at lines 7--7
+[][][]\OT1/cmr/m/n/10 Video og ar-tikel om step-mo-torer: []$\OT1/cmtt/m/n/10 h
+ttps : / / youtu . be / 0qwrnUeSpYQ$[] \OT1/cmr/m/n/10 og []$\OT1/cmtt/m/n/10 h
+ttps : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Overfull \hbox (1.17119pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/12 I dette pro-jekt bruger vi flere blue-tooth kom-mu-nika-tion-se
+-le-menter af typen \BlueSMiRF
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
-[9 <./Billeder/skrakast.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-
- []
-
-[10]
-<Billeder/Opstilling.png, id=164, 963.6pt x 722.7pt>
-File: Billeder/Opstilling.png Graphic file (type png)
-<use Billeder/Opstilling.png>
-Package pdftex.def Info: Billeder/Opstilling.png  used on input line 144.
-(pdftex.def)             Requested size: 385.43317pt x 289.07487pt.
- [11 <./Billeder/Opstilling.png>]
-<Billeder/Resultatbehandling1.png, id=176, 482.55281pt x 117.43875pt>
-File: Billeder/Resultatbehandling1.png Graphic file (type png)
-<use Billeder/Resultatbehandling1.png>
-Package pdftex.def Info: Billeder/Resultatbehandling1.png  used on input line 1
-74.
-(pdftex.def)             Requested size: 337.78465pt x 82.20654pt.
-<Billeder/Resultatbehandling2.png, id=178, 485.56406pt x 54.2025pt>
-File: Billeder/Resultatbehandling2.png Graphic file (type png)
-<use Billeder/Resultatbehandling2.png>
-Package pdftex.def Info: Billeder/Resultatbehandling2.png  used on input line 1
-83.
-(pdftex.def)             Requested size: 339.89252pt x 37.94148pt.
-<Billeder/Resultatbehandling3.png, id=180, 331.2375pt x 124.96687pt>
-File: Billeder/Resultatbehandling3.png Graphic file (type png)
-<use Billeder/Resultatbehandling3.png>
-Package pdftex.def Info: Billeder/Resultatbehandling3.png  used on input line 1
-92.
-(pdftex.def)             Requested size: 231.86465pt x 87.47621pt.
- [12 <./Billeder/Resultatbehandling1.png> <./Billeder/Resultatbehandling2.png>]
-<Billeder/Resultatbehandling4.png, id=196, 479.54156pt x 58.71938pt>
-File: Billeder/Resultatbehandling4.png Graphic file (type png)
-<use Billeder/Resultatbehandling4.png>
-Package pdftex.def Info: Billeder/Resultatbehandling4.png  used on input line 2
-31.
-(pdftex.def)             Requested size: 335.6768pt x 41.10326pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--238
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
-
- []
-
-[13 <./Billeder/Resultatbehandling3.png> <./Billeder/Resultatbehandling4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
-
- []
-
-<Billeder/Resultatbehandling5.png, id=206, 435.12563pt x 96.36pt>
-File: Billeder/Resultatbehandling5.png Graphic file (type png)
-<use Billeder/Resultatbehandling5.png>
-Package pdftex.def Info: Billeder/Resultatbehandling5.png  used on input line 2
+[23]
+<Billeder/Mikrocontroller_pins.png, id=389, 443.40656pt x 295.1025pt>
+File: Billeder/Mikrocontroller_pins.png Graphic file (type png)
+<use Billeder/Mikrocontroller_pins.png>
+Package pdftex.def Info: Billeder/Mikrocontroller_pins.png  used on input line 
 68.
-(pdftex.def)             Requested size: 304.58586pt x 67.45152pt.
+(pdftex.def)             Requested size: 354.72572pt x 236.0823pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+<Billeder/El-diagram.PNG, id=390, 618.05907pt x 449.42906pt>
+File: Billeder/El-diagram.PNG Graphic file (type png)
+<use Billeder/El-diagram.PNG>
+Package pdftex.def Info: Billeder/El-diagram.PNG  used on input line 87.
+(pdftex.def)             Requested size: 494.44792pt x 359.54372pt.
+[24 <./Billeder/Mikrocontroller_pins.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[][][]\OT1/cmr/m/n/10 ATMega dat-ablad, af-s-nit 9.4: []$\OT1/cmtt/m/n/10 http 
+: / / ww1 . microchip . com / downloads / en / DeviceDoc /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+[25 <./Billeder/El-diagram.PNG>]
+("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-33.def"
+File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
+)
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+<Billeder/PCB_uden_kobber.PNG, id=410, 377.15906pt x 353.82187pt>
+File: Billeder/PCB_uden_kobber.PNG Graphic file (type png)
+<use Billeder/PCB_uden_kobber.PNG>
+Package pdftex.def Info: Billeder/PCB_uden_kobber.PNG  used on input line 102.
+(pdftex.def)             Requested size: 301.72766pt x 283.05788pt.
+[26]
+<Billeder/PCB_med_kobber.PNG, id=420, 372.64218pt x 343.2825pt>
+File: Billeder/PCB_med_kobber.PNG Graphic file (type png)
+<use Billeder/PCB_med_kobber.PNG>
+Package pdftex.def Info: Billeder/PCB_med_kobber.PNG  used on input line 111.
+(pdftex.def)             Requested size: 298.11414pt x 274.62636pt.
+ [27 <./Billeder/PCB_uden_kobber.PNG>]) [28 <./Billeder/PCB_med_kobber.PNG>] (T
+ekst/Software.tex
+<Billeder/ProgramFlowchart.png, id=440, 906.38625pt x 718.685pt>
+File: Billeder/ProgramFlowchart.png Graphic file (type png)
+<use Billeder/ProgramFlowchart.png>
+Package pdftex.def Info: Billeder/ProgramFlowchart.png  used on input line 18.
+(pdftex.def)             Requested size: 543.83594pt x 431.21432pt.
+ [29]
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+[30 <./Billeder/ProgramFlowchart.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 27--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-
- []
-
-<Billeder/Resultatbehandling6.png, id=208, 371.13657pt x 92.59593pt>
-File: Billeder/Resultatbehandling6.png Graphic file (type png)
-<use Billeder/Resultatbehandling6.png>
-Package pdftex.def Info: Billeder/Resultatbehandling6.png  used on input line 2
-85.
-(pdftex.def)             Requested size: 259.79381pt x 64.8167pt.
-<Billeder/Resultatbehandling7.png, id=209, 466.74374pt x 130.23656pt>
-File: Billeder/Resultatbehandling7.png Graphic file (type png)
-<use Billeder/Resultatbehandling7.png>
-Package pdftex.def Info: Billeder/Resultatbehandling7.png  used on input line 2
-92.
-(pdftex.def)             Requested size: 326.71838pt x 91.16496pt.
-[14 <./Billeder/Resultatbehandling5.png> <./Billeder/Resultatbehandling6.png>]
-<Billeder/Resultatbehandling8.png, id=218, 480.29437pt x 184.43906pt>
-File: Billeder/Resultatbehandling8.png Graphic file (type png)
-<use Billeder/Resultatbehandling8.png>
-Package pdftex.def Info: Billeder/Resultatbehandling8.png  used on input line 2
-99.
-(pdftex.def)             Requested size: 336.20375pt x 129.10645pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 44--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
-
- []
-
-[15 <./Billeder/Resultatbehandling7.png> <./Billeder/Resultatbehandling8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 55--64
+
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+Underfull \hbox (badness 10000) in paragraph at lines 69--77
 
  []
 
-) [16] (Tekst/ProduktFlow.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--83
+
+ []
+
+
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 93.
+
+
+
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 93
+.
+
+
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 93.
+
+
+
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 93
+.
+
+
+Overfull \hbox (82.71204pt too wide) in paragraph at lines 84--94
+\OML/cmm/m/it/12 InterruptstandardpinINT\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 saett
+estil\OMS/cmsy/m/n/12 n\OML/cmm/m/it/12 INPUT[]ULLUP\OT1/cmr/m/n/12 "\OML/cmm/m
+/it/12 somhiverinterruptsegmentetfremi\OMS/cmsy/m/n/12 n\OML/cmm/m/it/12 stack\
+OT1/cmr/m/n/12 "\OML/cmm/m/it/12 :$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 98--103
+
+ []
+
+) [33] (Tekst/ikke_elektronisk.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+<Billeder/Kanontarn.PNG, id=469, 449.42906pt x 600.74437pt>
+File: Billeder/Kanontarn.PNG Graphic file (type png)
+<use Billeder/Kanontarn.PNG>
+Package pdftex.def Info: Billeder/Kanontarn.PNG  used on input line 9.
+(pdftex.def)             Requested size: 179.76843pt x 240.29349pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[][][][]$\OT1/cmtt/m/n/10 https : / / www . legbilligt . dk / shop / 14-[]el-[]
+gevaer-[]-[]-[]billige-[]softguns /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+[34 <./Billeder/Kanontarn.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+<Billeder/3D_print_1.PNG, id=480, 557.08125pt x 400.49625pt>
+File: Billeder/3D_print_1.PNG Graphic file (type png)
+<use Billeder/3D_print_1.PNG>
+Package pdftex.def Info: Billeder/3D_print_1.PNG  used on input line 23.
+(pdftex.def)             Requested size: 222.82855pt x 160.19566pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+<Billeder/3D_print_2.PNG, id=481, 546.54187pt x 378.66469pt>
+File: Billeder/3D_print_2.PNG Graphic file (type png)
+<use Billeder/3D_print_2.PNG>
+Package pdftex.def Info: Billeder/3D_print_2.PNG  used on input line 32.
+(pdftex.def)             Requested size: 218.61287pt x 151.46318pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+<Billeder/Printpapir.jpg, id=482, 722.7pt x 963.6pt>
+File: Billeder/Printpapir.jpg Graphic file (type jpg)
+<use Billeder/Printpapir.jpg>
+Package pdftex.def Info: Billeder/Printpapir.jpg  used on input line 43.
+(pdftex.def)             Requested size: 289.07487pt x 385.43317pt.
+[35 <./Billeder/3D_print_1.PNG> <./Billeder/3D_print_2.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+) [36 <./Billeder/Printpapir.jpg>] (Tekst/Aftestning.tex
+<Billeder/H-bro.jpg, id=499, 433.62pt x 433.62pt>
+File: Billeder/H-bro.jpg Graphic file (type jpg)
+<use Billeder/H-bro.jpg>
+Package pdftex.def Info: Billeder/H-bro.jpg  used on input line 7.
+(pdftex.def)             Requested size: 173.44492pt x 173.44492pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+[37 <./Billeder/H-bro.jpg>]
+<Billeder/Fjumrebraet.jpg, id=504, 529.98pt x 722.7pt>
+File: Billeder/Fjumrebraet.jpg Graphic file (type jpg)
+<use Billeder/Fjumrebraet.jpg>
+Package pdftex.def Info: Billeder/Fjumrebraet.jpg  used on input line 25.
+(pdftex.def)             Requested size: 211.98824pt x 289.07487pt.
+<Billeder/print.jpg, id=505, 722.7pt x 963.6pt>
+File: Billeder/print.jpg Graphic file (type jpg)
+<use Billeder/print.jpg>
+Package pdftex.def Info: Billeder/print.jpg  used on input line 34.
+(pdftex.def)             Requested size: 289.07487pt x 385.43317pt.
+ [38 <./Billeder/Fjumrebraet.jpg>]
+<Billeder/spejlvendtprint.jpg, id=511, 722.7pt x 963.6pt>
+File: Billeder/spejlvendtprint.jpg Graphic file (type jpg)
+<use Billeder/spejlvendtprint.jpg>
+Package pdftex.def Info: Billeder/spejlvendtprint.jpg  used on input line 44.
+(pdftex.def)             Requested size: 289.07487pt x 385.43317pt.
+ [39 <./Billeder/print.jpg>]
+<Billeder/fejlprint.jpg, id=517, 722.7pt x 963.6pt>
+File: Billeder/fejlprint.jpg Graphic file (type jpg)
+<use Billeder/fejlprint.jpg>
+Package pdftex.def Info: Billeder/fejlprint.jpg  used on input line 53.
+(pdftex.def)             Requested size: 289.07487pt x 385.43317pt.
+ [40 <./Billeder/spejlvendtprint.jpg>] [41 <./Billeder/fejlprint.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
+ [42]) [43]
+(Tekst/Konklusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<Billeder/Kredsloeb1.png, id=239, 603.25375pt x 492.84125pt>
-File: Billeder/Kredsloeb1.png Graphic file (type png)
-<use Billeder/Kredsloeb1.png>
-Package pdftex.def Info: Billeder/Kredsloeb1.png  used on input line 9.
-(pdftex.def)             Requested size: 482.60365pt x 394.27351pt.
-
-Overfull \hbox (39.02518pt too wide) in paragraph at lines 9--10
- [][] 
- []
-
-<Billeder/Flowchart1.png, id=240, 565.36218pt x 429.10312pt>
-File: Billeder/Flowchart1.png Graphic file (type png)
-<use Billeder/Flowchart1.png>
-Package pdftex.def Info: Billeder/Flowchart1.png  used on input line 17.
-(pdftex.def)             Requested size: 452.29036pt x 343.28296pt.
-[17 <./Billeder/Kredsloeb1.png>] [18 <./Billeder/Flowchart1.png>] [19]
-<Billeder/Kredsloeb2.png, id=259, 543.02875pt x 362.35374pt>
-File: Billeder/Kredsloeb2.png Graphic file (type png)
-<use Billeder/Kredsloeb2.png>
-Package pdftex.def Info: Billeder/Kredsloeb2.png  used on input line 89.
-(pdftex.def)             Requested size: 434.42357pt x 289.88339pt.
-<Billeder/Flowchart2.png, id=260, 410.53375pt x 681.54625pt>
-File: Billeder/Flowchart2.png Graphic file (type png)
-<use Billeder/Flowchart2.png>
-Package pdftex.def Info: Billeder/Flowchart2.png  used on input line 97.
-(pdftex.def)             Requested size: 328.42744pt x 545.23775pt.
- [20 <./Billeder/Kredsloeb2.png>] [21 <./Billeder/Flowchart2.png>]) [22]
-(Tekst/Konklusion.tex) [23] (Tekst/Kildeliste.tex
+) [44] (Tekst/Kildeliste.tex
 Overfull \hbox (19.54675pt too wide) in paragraph at lines 2--6
 []$\OT1/cmtt/m/n/12 http : / / www . matematikfysik . dk / fys / noter _ tillae
 g / tillaeg _ det _ skraa _ kast _ uden _
@@ -1088,48 +1305,78 @@ t . pdf$[] \OT1/cmr/m/n/12 af []$\OT1/cmtt/m/n/12 http : / / www . matematiksid
 er .
  []
 
-) [24] (Tekst/Bilag.tex
-<Billeder/Maeldata.png, id=293, 432.4155pt x 290.88675pt>
-File: Billeder/Maeldata.png Graphic file (type png)
-<use Billeder/Maeldata.png>
-Package pdftex.def Info: Billeder/Maeldata.png  used on input line 6.
-(pdftex.def)             Requested size: 432.41444pt x 290.88603pt.
-) [25 <./Billeder/Maeldata.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
+) [45] (Tekst/Bilag.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+[46] (Tekst/kode.tex (Kode/controller.c
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 2.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 2.
+ [47] [48])
+(Kode/turret.c [49] [50]))) [51]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
  (Rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
 Package rerunfilecheck Info: File `Rapport.out' has not changed.
-(rerunfilecheck)             Checksum: D9AE4C1535A218DDE5454FE561E06650;1078.
+(rerunfilecheck)             Checksum: 074A38366787A67CD64AA0F9D9DE4734;3139.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 20925 strings out of 492969
- 377600 string characters out of 3135846
- 468795 words of memory out of 3000000
- 24307 multiletter control sequences out of 15000+200000
+ 21994 strings out of 492969
+ 390475 string characters out of 3135846
+ 816976 words of memory out of 3000000
+ 25042 multiletter control sequences out of 15000+200000
  11863 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,14n,94p,652b,597s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,9n,97p,1267b,1953s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Rapport.pdf (26 pages, 2734259 bytes).
+e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Rapport.pdf (52 pages, 2664539 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 239 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 939 PDF objects out of 1000 (max. 8388607)
+ 370 named destinations out of 1000 (max. 500000)
+ 499 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -7,32 +7,43 @@
 
 \begin{document}
 %%Forside
-\input{Tekst/Forside}
+\input{Tekst/Forside1}
 
 %%%%---------------------------------------------
 %%Titelblad
 %%%%---------------------------------------------
-\subsection*{Titelblad}
-\textbf{Projekttitel} Sensorer og datakommunikation\\
-\textbf{Uddannelsessted og klasse} Aalborg tekniske Gymnasium, Q16\\
-\textbf{Fag} Teknikfag, Elektronik A\\
-\textbf{Projektperiode} x/x/2018 - x/1/2019\\
-\textbf{Projektet udarbejdet af:}\\
+\section*{Titelblad}
+{\large \textbf{Projekttitel}} Sensorer og datakommunikation\\[0.5cm]
+{\large \textbf{Uddannelsessted og klasse}} Aalborg tekniske Gymnasium, Q16\\[0.5cm]
+{\large \textbf{Fag}} Teknikfag, Elektronik A\\[0.5cm]
+{\large \textbf{Projektperiode}} x/x/2018 - 6/2/2019\\[0.5cm]
+{\large \textbf{Projektet udarbejdet af:}}\\[2cm]
 
+\rule{0.5\textwidth}{0.4pt}\\
+\textbf{Lucas Mark Rasmussen} \\[1cm]
 
+\rule{0.5\textwidth}{0.4pt}\\
+\textbf{Sebastian Lassen} \\[1cm]
 
+\rule{0.5\textwidth}{0.4pt}\\
+\textbf{Nikolai Aaen Bonderup} \\[1cm]
 
+\subsection*{Synopsis}
+I dette projekt har vi fået til opgave at lave et produkt, som skal kunne opfylde nogle praktiske krav, der er givet ved en opgaveformulering og produktkrav. Der er blevet udleveret flere forskellige bluetooth elementer, hvorefter gruppen selv har skulle idegenerere og konstruere et produkt som lever op til de krav, som er stillet i selve opgaveformuleringen (kravspecifikationen). Projektet har derfor resulteret i et kanontårn som kan kontrolleres trådløst og er i besiddelse af en form for interrupt, forskellige slags motorer og et mikrocontrollerprint.
 
+\subsection*{Forord}
+Rapporten består af otte hovedafsnit som er markeret i indholdsfortegnelsen og seks, hvis litteraturliste og bilag trækkes fra. Disse hovedafsnit har hver en mængde af underafsnit som også kan ses i selve indholdsfortegnelse. I afsnittene gennemgås arbejdet med robotten og overvejelser som gruppen har gjort sig. Der medfølger selvfølgelig billede af udvalgte dele af arbejdet, samt tekniske tegninger og i nogle tilfælde også tidligere versioner af disse tegninger for at vise en udvikling.
 
 %%%%---------------------------------------------
-%%Rapport
+%%Indholdsfortegnelse
 %%%%---------------------------------------------
+\newpage
 \renewcommand{\contentsname}{Indholdsfortegnelse}
 \tableofcontents
 \newpage
 
 %%%%---------------------------------------------
-%%Projektbeskrivelse
+%%Begyndelse af rapport
 %%%%---------------------------------------------
 
 %%Indledning
@@ -43,17 +54,22 @@
 \newpage
 \input{Projektbeskrivelse}
 
-%%%%---------------------------------------------
-%%Fysik Rapport
-%%%%---------------------------------------------
-\section{Systembeskrivelse}
-
-\input{Tekst/Teori}
 \newpage
+\input{Tekst/Systembeskrivelse}
 
-\input{Tekst/ProduktFlow}
 \newpage
+\input{Tekst/Hardware}
 
+\newpage
+\input{Tekst/Software}
+
+\newpage
+\input{Tekst/ikke_elektronisk}
+
+\newpage
+\input{Tekst/Aftestning}
+
+\newpage
 \input{Tekst/Konklusion}
 \newpage
 
