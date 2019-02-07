@@ -1,0 +1,83 @@
+\documentclass[12pt]{article}
+
+\input{Tekst/PageSetup}
+
+
+
+
+\begin{document}
+%%Forside
+\input{Tekst/Forside1}
+
+%%%%---------------------------------------------
+%%Titelblad
+%%%%---------------------------------------------
+\section*{Titelblad}
+{\large \textbf{Projekttitel}} Sensorer og datakommunikation\\[0.5cm]
+{\large \textbf{Uddannelsessted og klasse}} Aalborg tekniske Gymnasium, Q16\\[0.5cm]
+{\large \textbf{Fag}} Teknikfag, Elektronik A\\[0.5cm]
+{\large \textbf{Projektperiode}} x/x/2018 - 6/2/2019\\[0.5cm]
+{\large \textbf{Projektet udarbejdet af:}}\\[2cm]
+
+\rule{0.5\textwidth}{0.4pt}\\
+\textbf{Lucas Mark Rasmussen} \\[1cm]
+
+\rule{0.5\textwidth}{0.4pt}\\
+\textbf{Sebastian Lassen} \\[1cm]
+
+\rule{0.5\textwidth}{0.4pt}\\
+\textbf{Nikolai Aaen Bonderup} \\[1cm]
+
+\subsection*{Synopsis}
+I dette projekt har vi fået til opgave at lave et produkt, som skal kunne opfylde nogle praktiske krav, der er givet ved en opgaveformulering og produktkrav. Der er blevet udleveret flere forskellige bluetooth elementer, hvorefter gruppen selv har skulle idegenerere og konstruere et produkt som lever op til de krav, som er stillet i selve opgaveformuleringen (kravspecifikationen). Projektet har derfor resulteret i et kanontårn som kan kontrolleres trådløst og er i besiddelse af en form for interrupt, forskellige slags motorer og et mikrocontrollerprint.
+
+\subsection*{Forord}
+Rapporten består af otte hovedafsnit som er markeret i indholdsfortegnelsen og seks, hvis litteraturliste og bilag trækkes fra. Disse hovedafsnit har hver en mængde af underafsnit som også kan ses i selve indholdsfortegnelse. I afsnittene gennemgås arbejdet med robotten og overvejelser som gruppen har gjort sig. Der medfølger selvfølgelig billede af udvalgte dele af arbejdet, samt tekniske tegninger og i nogle tilfælde også tidligere versioner af disse tegninger for at vise en udvikling.
+
+%%%%---------------------------------------------
+%%Indholdsfortegnelse
+%%%%---------------------------------------------
+\newpage
+\renewcommand{\contentsname}{Indholdsfortegnelse}
+\tableofcontents
+\newpage
+
+%%%%---------------------------------------------
+%%Begyndelse af rapport
+%%%%---------------------------------------------
+
+%%Indledning
+\newpage
+\input{Tekst/Indledning}
+
+%%Kravspecifikation
+\newpage
+\input{Projektbeskrivelse}
+
+\newpage
+\input{Tekst/Systembeskrivelse}
+
+\newpage
+\input{Tekst/Hardware}
+
+\newpage
+\input{Tekst/Software}
+
+\newpage
+\input{Tekst/ikke_elektronisk}
+
+\newpage
+\input{Tekst/Aftestning}
+
+\newpage
+\input{Tekst/Konklusion}
+\newpage
+
+\input{Tekst/Kildeliste}
+\newpage
+
+\input{Tekst/Bilag}
+
+
+
+\end{document}

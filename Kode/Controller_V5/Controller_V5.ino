@@ -1,4 +1,4 @@
-//Først inkluderes ønskede lementer
+﻿//Først inkluderes ønskede elementer
 #include <SoftwareSerial.h>  
 
 //Konstanter initieres
@@ -18,6 +18,7 @@ int buttonStateShoot = 0;
 int bluetoothTx = 2;  // TX-O pin til bluetooth mate, Arduino D2
 int bluetoothRx = 3;  // RX-I pin til bluetooth mate, Arduino D3
 
+Seriel bluetooth opstartes
 SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
 
 
@@ -38,8 +39,8 @@ void setup() {
   //bluetooth.println("I");
   //bluetooth.println("C,00066686745c");   
   bluetooth.println("U,9600,N");  // baudrate skiftes midlertidigt til 9600, Ingen paritet
-  // 115200 baudrate kan være for hurtigt for stabil serial kommunktion
-  bluetooth.begin(9600);  // Start bluetooth serial at 9600
+  // 115200 baudrate kan være for hurtigt for stabil seriel kommunktion
+  bluetooth.begin(9600);  // Start bluetooth seriel at 9600
 
   Serial.print("Ended Setup");
 }
@@ -48,6 +49,7 @@ void setup() {
 bool control = 1;
 
 void loop() {
+  //Control sekvens og kommunikation påbegyndes 
   if(control){
     bluetooth.print("$$$");delay(1000);
     bluetooth.println("SM,1");delay(1000);
@@ -62,13 +64,14 @@ void loop() {
 
     //Serial.print("Ends");
   }
-    // read the state of the pushbutton value:
+    //Knaptryk registreres
   buttonStateLeft = digitalRead(buttonPinLeft);
   buttonStateRight = digitalRead(buttonPinRight);
   buttonStateUp = digitalRead(buttonPinUp);
   buttonStateDown = digitalRead(buttonPinDown);
   buttonStateShoot = digitalRead(buttonPinShoot);
 
+//Alt efter hvilken knap som er blevet trykket sendes en "kommando karakter" til vores kanontårn
  if (buttonStateLeft == HIGH){
       bluetooth.print((char)'a');
       Serial.println('a');
@@ -94,17 +97,17 @@ void loop() {
       Serial.println('e');
       delay(1000);
   }
-  if(bluetooth.available())  // If the bluetooth sent any characters
+  if(bluetooth.available())  // Hvis en karakter er blevet sendt med bluetooth udføres følgene:
   {
-    // Send any characters the bluetooth prints to the serial monitor
+    // Alle karatere som er blevet sendt gennem bluetooth printes i serial monitor.
     Serial.print((char)bluetooth.read());  
   }
-  if(Serial.available())  // If stuff was typed in the serial monitor
+  if(Serial.available())  // Hvis noget er blevet skrevet i serial monitoren:
   {
-    // Send any characters the Serial monitor prints to the bluetooth
+    // sendes dette til bluetooth elementet og printes.
     
   }
    else {
-    // Nothing happens
+    // Sker der ikke noget
   }
 }

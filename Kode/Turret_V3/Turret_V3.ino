@@ -1,10 +1,7 @@
+//Først inkluderes ønskede elementer
 #include <SoftwareSerial.h>  
-#include <Stepper.h>
 
-  //http://www.arduino.cc/en/Tutorial/Button
-  // constants won't change. They're used here to set pin numbers:
-const int buttonPin = 4;     // the number of the pushbutton pin
-const int ledPin = 13;
+//Værdier til pins oprettes
 
 int bluetoothTx = 2;  // TX-O pin of bluetooth mate, Arduino D2
 int bluetoothRx = 3;  // RX-I pin of bluetooth mate, Arduino D3
@@ -18,9 +15,9 @@ SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
 
 void setup()
 {
-  Serial.begin(9600);  // Begin the serial monitor at 9600bps
-
-  bluetooth.begin(115200);  // The Bluetooth Mate defaults to 115200bps
+  //Seriel kommunikation påbegyndes:
+  Serial.begin(9600);  // Serial monitor påbegyndes ved 9600bps
+  bluetooth.begin(115200);  // Bluetooth "Mate" starter som standard to 115200bps
   bluetooth.print("$");  // Print three times individually
   bluetooth.print("$");
   bluetooth.print("$");  // Enter command mode
@@ -38,42 +35,43 @@ void setup()
 
 void loop()
 {
+    //Alle H-bro pins sættes til at være LOW for at undgå problemer med flere HIGH's ad gangen
     digitalWrite(R, LOW);
     digitalWrite(L, LOW);
     digitalWrite(U, LOW);
     digitalWrite(D, LOW);
     digitalWrite(S, LOW);
-  if(bluetooth.available())
+  if(bluetooth.available())//Hvis der er kommunikation med bluetooth, start switch
     switch ((char)bluetooth.read()){
-      case 'a':
+      case 'a'://Hvis Turret har modtaget char: a, drej til venstre i 500ms
      digitalWrite(R, LOW);
      digitalWrite(L, HIGH);
      delay(500);
      Serial.println("a");
      delay(1);
      break;
-      case 'b':
+      case 'b'://Hvis Turret har modtaget char: b, drej til højre i 500ms
      digitalWrite(R, HIGH);
      digitalWrite(L, LOW);
      delay(500);
      Serial.println("b");
      delay(1);
      break;
-       case 'c':
+       case 'c'://Hvis Turret har modtaget char: c, panorer op i 500ms
      digitalWrite(U, HIGH);
      digitalWrite(D, LOW);
      delay(500);
      Serial.println("c");
      delay(1);
      break;
-       case 'd':
+       case 'd'://Hvis Turret har modtaget char: d, panorer ned i 500ms
      digitalWrite(U, LOW);
      digitalWrite(D, HIGH);
      delay(500);
      Serial.println("d");
      delay(1);
      break;
-       case 'e':
+       case 'e'://Hvis Turret har modtaget char: e, tænd for relæ til at skyde i 10s
      digitalWrite(S, LOW);
      delay(1000);
      digitalWrite(S, HIGH);
@@ -84,16 +82,9 @@ void loop()
      break;
    }
   
-  /*if(bluetooth.available())  // If the bluetooth sent any characters
+  if(Serial.available())  // Hvis der er skrevet noget i serial monitor:
   {
-    // Send any characters the bluetooth prints to the serial monitor
-    Serial.print((char)bluetooth.read());  
-  }*/
-  
-  if(Serial.available())  // If stuff was typed in the serial monitor
-  {
-    // Send any characters the Serial monitor prints to the bluetooth
+    // Printes dette til bluetooth serial.
     bluetooth.print((char)Serial.read());
   }
-  // and loop forever and ever!
 }

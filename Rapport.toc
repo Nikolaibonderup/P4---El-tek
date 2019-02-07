@@ -1,0 +1,48 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Indledning}{5}{section.1}
+\contentsline {section}{\numberline {2}Projektbeskrivelse}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Projektanalyse}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Projektformulering}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Projektafgr\IeC {\ae }nsning}{8}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Kravspecifikationer}{10}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Tidsplan}{11}{subsection.2.5}
+\contentsline {section}{\numberline {3}Systembeskrivelse}{13}{section.3}
+\contentsline {subsection}{\numberline {3.1}Kanont\IeC {\r a}rn}{14}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Controller}{18}{subsection.3.2}
+\contentsline {section}{\numberline {4}Hardware}{21}{section.4}
+\contentsline {subsection}{\numberline {4.1}Stepper motor}{21}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}DC motor}{21}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}H-bro}{21}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Knapper}{22}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Rel\IeC {\ae }}{22}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}BlueSMiRF}{22}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Accelerometer}{23}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Sp\IeC {\ae }ndingsregulator}{23}{subsection.4.8}
+\contentsline {subsection}{\numberline {4.9}Mikrocontroller (ATMega328p)}{23}{subsection.4.9}
+\contentsline {subsection}{\numberline {4.10}Krystaloscillator}{24}{subsection.4.10}
+\contentsline {subsection}{\numberline {4.11}El-diagrammer}{25}{subsection.4.11}
+\contentsline {subsubsection}{\numberline {4.11.1}Mikrocontrollerprint}{25}{subsubsection.4.11.1}
+\contentsline {subsection}{\numberline {4.12}PCB-layout}{27}{subsection.4.12}
+\contentsline {section}{\numberline {5}Software}{29}{section.5}
+\contentsline {subsection}{\numberline {5.1}Generelt}{29}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}IDE og sprog}{29}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Indsamling af viden om Arduino software}{29}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Program flow}{30}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Psedokode}{31}{subsection.5.5}
+\contentsline {subsubsection}{\numberline {5.5.1}Controller}{31}{subsubsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.2}Turret}{32}{subsubsection.5.5.2}
+\contentsline {subsection}{\numberline {5.6}Programbeskrivelse/gennemgang}{33}{subsection.5.6}
+\contentsline {section}{\numberline {6}Ikke elektroniske dele}{34}{section.6}
+\contentsline {subsection}{\numberline {6.1}Production af kanont\IeC {\r a}rn}{34}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Production af 3D print}{35}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Production af mikrocontrollerprint}{36}{subsection.6.3}
+\contentsline {section}{\numberline {7}Aftestning}{37}{section.7}
+\contentsline {subsection}{\numberline {7.1}Test med pr\IeC {\ae }fabrikeret H-bro (L289N)}{37}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Test af knapper}{37}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Aftestning af mikrocontroller og mikrocontrollerprint}{38}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Problemer under udviklingen af produktet }{41}{subsection.7.4}
+\contentsline {subsubsection}{\numberline {7.4.1}Problem \#1 - Stepper motor vs. DC motor}{41}{subsubsection.7.4.1}
+\contentsline {subsubsection}{\numberline {7.4.2}Problem \#2 - Flydende kommunikation}{42}{subsubsection.7.4.2}
+\contentsline {section}{\numberline {8}Konklusion}{44}{section.8}
+\contentsline {section}{\numberline {9}Litteraturliste}{45}{section.9}
+\contentsline {section}{\numberline {10}Bilag}{46}{section.10}

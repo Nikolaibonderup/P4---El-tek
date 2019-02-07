@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.20)  19 DEC 2018 10:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.19)  19 DEC 2018 20:22
 entering extended mode
 **./FysikRapport.tex
 (FysikRapport.tex
@@ -19,8 +19,32 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (Tekst/PageSetup.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphic
-x.sty"
+) (Tekst/PageSetup.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.st
+y"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
@@ -37,10 +61,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
+)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
@@ -72,10 +93,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2018/09/26 3.24 The Babel package
+Package: babel 2018/11/13 3.27 The Babel package
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2018/09/26 3.24 Babel switching mechanism
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
@@ -88,7 +109,7 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2018/09/26 3.24 Babel common definitions
+File: babel.def 2018/11/13 3.27 Babel common definitions
 \babel@savecnt=\count91
 \U@D=\dimen113
 
@@ -194,23 +215,6 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@depth=\count106
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
@@ -547,11 +551,11 @@ Package caption Info: listings package is loaded.
 \c@subfigure=\count141
 \c@subtable=\count142
 )
-Package caption Info: We need package `newfloat' on input line 11.
+Package caption Info: We need package `newfloat' on input line 12.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\newfloat.sty"
 Package: newfloat 2018/03/04 v1.1a Defining new floating environments (AR)
-))
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \c@r@tfl@t=\count143
@@ -560,7 +564,116 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rot@float@box=\box43
 \rot@mess@toks=\toks43
 )
-(FysikRapport.aux)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen182
+\Hy@linkcounter=\count144
+\Hy@pagecounter=\count145
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count146
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4788.
+\c@Hy@tempcnt=\count147
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5141.
+\XeTeXLinkMargin=\dimen183
+\Fld@menulength=\count148
+\Field@Width=\dimen184
+\Fld@charsize=\dimen185
+Package hyperref Info: Hyper figures OFF on input line 6396.
+Package hyperref Info: Link nesting OFF on input line 6401.
+Package hyperref Info: Hyper index ON on input line 6404.
+Package hyperref Info: backreferencing OFF on input line 6411.
+Package hyperref Info: Link coloring OFF on input line 6416.
+Package hyperref Info: Link coloring with OCG OFF on input line 6421.
+Package hyperref Info: PDF/A mode OFF on input line 6426.
+LaTeX Info: Redefining \ref on input line 6466.
+LaTeX Info: Redefining \pageref on input line 6470.
+\Hy@abspage=\count149
+\c@Item=\count150
+\c@Hfootnote=\count151
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
+\Fld@listcount=\count152
+\c@bookmark@seq@number=\count153
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip51
+))
+(FysikRapport.aux
+
+LaTeX Warning: Label `fig:Resultatbehandling3' multiply defined.
+
+)
 \openout1 = `FysikRapport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -575,59 +688,26 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count144
-\scratchdimen=\dimen182
+\scratchcounter=\count154
+\scratchdimen=\dimen186
 \scratchbox=\box44
-\nofMPsegments=\count145
-\nofMParguments=\count146
+\nofMPsegments=\count155
+\nofMParguments=\count156
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count147
-\MPscratchDim=\dimen183
-\MPnumerator=\count148
-\makeMPintoPDFobject=\count149
+\MPscratchCnt=\count157
+\MPscratchDim=\dimen187
+\MPnumerator=\count158
+\makeMPintoPDFobject=\count159
 \everyMPtoPDFconversion=\toks45
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
@@ -680,21 +760,45 @@ most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
 loading the todonotes package. on input line 8.
 
-\c@lstlisting=\count150
+\c@lstlisting=\count160
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-(Tekst/Forside.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+\AtBeginShipoutBox=\box45
+Package hyperref Info: Link coloring OFF on input line 8.
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-[1
+\c@section@level=\count161
+)
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
+LaTeX Info: Redefining \nameref on input line 8.
 
-{C:/Users/nikol/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
-(FysikRapport.toc)
-\tf@toc=\write4
-\openout4 = `FysikRapport.toc'.
+(FysikRapport.out) (FysikRapport.out)
+\@outlinefile=\write4
+\openout4 = `FysikRapport.out'.
 
- [1] (Tekst/Indledning.tex
+ (Tekst/Forside.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+) [1
+
+{C:/Users/nikol/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (FysikRapp
+ort.toc)
+\tf@toc=\write5
+\openout5 = `FysikRapport.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17 \newpage
+              [1] (Tekst/Indledning.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -735,7 +839,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<Billeder/Koncept_turret.png, id=28, 690.32906pt x 453.19313pt>
+<Billeder/Koncept_turret.png, id=111, 690.32906pt x 453.19313pt>
 File: Billeder/Koncept_turret.png Graphic file (type png)
 <use Billeder/Koncept_turret.png>
 Package pdftex.def Info: Billeder/Koncept_turret.png  used on input line 8.
@@ -745,50 +849,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<Billeder/Fysik_koncept.png, id=30, 896.59969pt x 394.47375pt>
+<Billeder/Fysik_koncept.png, id=113, 896.59969pt x 394.47375pt>
 File: Billeder/Fysik_koncept.png Graphic file (type png)
 <use Billeder/Fysik_koncept.png>
 Package pdftex.def Info: Billeder/Fysik_koncept.png  used on input line 19.
 (pdftex.def)             Requested size: 358.63351pt x 157.7867pt.
 ) [6 <./Billeder/Koncept_turret.png>] [7 <./Billeder/Fysik_koncept.png>]
 (Tekst/Tidsplan.tex
-<Billeder/Tidsplan_23_11_2018.png, id=40, 638.68613pt x 363.759pt>
+<Billeder/Tidsplan_23_11_2018.png, id=127, 638.68613pt x 363.759pt>
 File: Billeder/Tidsplan_23_11_2018.png Graphic file (type png)
 <use Billeder/Tidsplan_23_11_2018.png>
 Package pdftex.def Info: Billeder/Tidsplan_23_11_2018.png  used on input line 6
 .
 (pdftex.def)             Requested size: 510.94958pt x 291.0076pt.
 ) (Tekst/Teori.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-
- []
-
-[8 <./Billeder/Tidsplan_23_11_2018.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+<Billeder/skrakast.png, id=128, 566.86781pt x 285.31593pt>
+File: Billeder/skrakast.png Graphic file (type png)
+<use Billeder/skrakast.png>
+Package pdftex.def Info: Billeder/skrakast.png  used on input line 7.
+(pdftex.def)             Requested size: 396.80476pt x 199.71979pt.
+ [8 <./Billeder/Tidsplan_23_11_2018.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+[9 <./Billeder/skrakast.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
@@ -799,31 +904,148 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
 
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-<Billeder/Opstilling.png, id=51, 963.6pt x 722.7pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+[10]
+<Billeder/Opstilling.png, id=153, 963.6pt x 722.7pt>
 File: Billeder/Opstilling.png Graphic file (type png)
 <use Billeder/Opstilling.png>
-Package pdftex.def Info: Billeder/Opstilling.png  used on input line 136.
+Package pdftex.def Info: Billeder/Opstilling.png  used on input line 144.
 (pdftex.def)             Requested size: 385.43317pt x 289.07487pt.
-[10]) [11 <./Billeder/Opstilling.png>] (Tekst/ProduktFlow.tex
+ [11 <./Billeder/Opstilling.png>]
+<Billeder/Resultatbehandling1.png, id=165, 482.55281pt x 117.43875pt>
+File: Billeder/Resultatbehandling1.png Graphic file (type png)
+<use Billeder/Resultatbehandling1.png>
+Package pdftex.def Info: Billeder/Resultatbehandling1.png  used on input line 1
+74.
+(pdftex.def)             Requested size: 337.78465pt x 82.20654pt.
+<Billeder/Resultatbehandling2.png, id=167, 485.56406pt x 54.2025pt>
+File: Billeder/Resultatbehandling2.png Graphic file (type png)
+<use Billeder/Resultatbehandling2.png>
+Package pdftex.def Info: Billeder/Resultatbehandling2.png  used on input line 1
+83.
+(pdftex.def)             Requested size: 339.89252pt x 37.94148pt.
+<Billeder/Resultatbehandling3.png, id=169, 331.2375pt x 124.96687pt>
+File: Billeder/Resultatbehandling3.png Graphic file (type png)
+<use Billeder/Resultatbehandling3.png>
+Package pdftex.def Info: Billeder/Resultatbehandling3.png  used on input line 1
+92.
+(pdftex.def)             Requested size: 231.86465pt x 87.47621pt.
+ [12 <./Billeder/Resultatbehandling1.png> <./Billeder/Resultatbehandling2.png>]
+<Billeder/Resultatbehandling4.png, id=185, 479.54156pt x 58.71938pt>
+File: Billeder/Resultatbehandling4.png Graphic file (type png)
+<use Billeder/Resultatbehandling4.png>
+Package pdftex.def Info: Billeder/Resultatbehandling4.png  used on input line 2
+31.
+(pdftex.def)             Requested size: 335.6768pt x 41.10326pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+[13 <./Billeder/Resultatbehandling3.png> <./Billeder/Resultatbehandling4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+<Billeder/Resultatbehandling5.png, id=195, 435.12563pt x 96.36pt>
+File: Billeder/Resultatbehandling5.png Graphic file (type png)
+<use Billeder/Resultatbehandling5.png>
+Package pdftex.def Info: Billeder/Resultatbehandling5.png  used on input line 2
+68.
+(pdftex.def)             Requested size: 304.58586pt x 67.45152pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+ []
+
+<Billeder/Resultatbehandling6.png, id=197, 371.13657pt x 92.59593pt>
+File: Billeder/Resultatbehandling6.png Graphic file (type png)
+<use Billeder/Resultatbehandling6.png>
+Package pdftex.def Info: Billeder/Resultatbehandling6.png  used on input line 2
+85.
+(pdftex.def)             Requested size: 259.79381pt x 64.8167pt.
+<Billeder/Resultatbehandling7.png, id=198, 466.74374pt x 130.23656pt>
+File: Billeder/Resultatbehandling7.png Graphic file (type png)
+<use Billeder/Resultatbehandling7.png>
+Package pdftex.def Info: Billeder/Resultatbehandling7.png  used on input line 2
+92.
+(pdftex.def)             Requested size: 326.71838pt x 91.16496pt.
+[14 <./Billeder/Resultatbehandling5.png> <./Billeder/Resultatbehandling6.png>]
+<Billeder/Resultatbehandling8.png, id=207, 480.29437pt x 184.43906pt>
+File: Billeder/Resultatbehandling8.png Graphic file (type png)
+<use Billeder/Resultatbehandling8.png>
+Package pdftex.def Info: Billeder/Resultatbehandling8.png  used on input line 2
+99.
+(pdftex.def)             Requested size: 336.20375pt x 129.10645pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+[15 <./Billeder/Resultatbehandling7.png> <./Billeder/Resultatbehandling8.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+) [16] (Tekst/ProduktFlow.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<Billeder/Kredsloeb1.png, id=60, 603.25375pt x 492.84125pt>
+<Billeder/Kredsloeb1.png, id=228, 603.25375pt x 492.84125pt>
 File: Billeder/Kredsloeb1.png Graphic file (type png)
 <use Billeder/Kredsloeb1.png>
 Package pdftex.def Info: Billeder/Kredsloeb1.png  used on input line 9.
@@ -833,50 +1055,78 @@ Overfull \hbox (39.02518pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
-<Billeder/Flowchart1.png, id=61, 565.36218pt x 429.10312pt>
+<Billeder/Flowchart1.png, id=229, 565.36218pt x 429.10312pt>
 File: Billeder/Flowchart1.png Graphic file (type png)
 <use Billeder/Flowchart1.png>
 Package pdftex.def Info: Billeder/Flowchart1.png  used on input line 17.
 (pdftex.def)             Requested size: 452.29036pt x 343.28296pt.
-[12 <./Billeder/Kredsloeb1.png>] [13 <./Billeder/Flowchart1.png>] [14]
-<Billeder/Kredsloeb2.png, id=74, 543.02875pt x 362.35374pt>
+[17 <./Billeder/Kredsloeb1.png>] [18 <./Billeder/Flowchart1.png>] [19]
+<Billeder/Kredsloeb2.png, id=248, 543.02875pt x 362.35374pt>
 File: Billeder/Kredsloeb2.png Graphic file (type png)
 <use Billeder/Kredsloeb2.png>
 Package pdftex.def Info: Billeder/Kredsloeb2.png  used on input line 89.
 (pdftex.def)             Requested size: 434.42357pt x 289.88339pt.
-<Billeder/Flowchart2.png, id=75, 410.53375pt x 681.54625pt>
+<Billeder/Flowchart2.png, id=249, 410.53375pt x 681.54625pt>
 File: Billeder/Flowchart2.png Graphic file (type png)
 <use Billeder/Flowchart2.png>
 Package pdftex.def Info: Billeder/Flowchart2.png  used on input line 97.
 (pdftex.def)             Requested size: 328.42744pt x 545.23775pt.
- [15 <./Billeder/Kredsloeb2.png>] [16 <./Billeder/Flowchart2.png>]) [17]
-(Tekst/Bilag.tex
-<Billeder/Maeldata.png, id=87, 432.4155pt x 290.88675pt>
+ [20 <./Billeder/Kredsloeb2.png>] [21 <./Billeder/Flowchart2.png>]) [22]
+(Tekst/Kildeliste.tex
+Overfull \hbox (19.54675pt too wide) in paragraph at lines 2--6
+[]$\OT1/cmtt/m/n/12 http : / / www . matematikfysik . dk / fys / noter _ tillae
+g / tillaeg _ det _ skraa _ kast _ uden _
+ []
+
+
+Overfull \hbox (52.75911pt too wide) in paragraph at lines 2--6
+[]$\OT1/cmtt/m/n/12 http : / / www . matematiksider . dk / projekter / skraakas
+t . pdf$[] \OT1/cmr/m/n/12 af []$\OT1/cmtt/m/n/12 http : / / www . matematiksid
+er .
+ []
+
+) [23] (Tekst/Bilag.tex
+<Billeder/Maeldata.png, id=277, 432.4155pt x 290.88675pt>
 File: Billeder/Maeldata.png Graphic file (type png)
 <use Billeder/Maeldata.png>
 Package pdftex.def Info: Billeder/Maeldata.png  used on input line 6.
 (pdftex.def)             Requested size: 432.41444pt x 290.88603pt.
-) [18 <./Billeder/Maeldata.png>] (FysikRapport.aux) ) 
+) [24 <./Billeder/Maeldata.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
+ (FysikRapport.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
+Package rerunfilecheck Info: File `FysikRapport.out' has not changed.
+(rerunfilecheck)             Checksum: F7D467D0056AC77175B883459A435635;906.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
+ ) 
 Here is how much of TeX's memory you used:
- 17310 strings out of 492970
- 321730 string characters out of 3135854
- 385391 words of memory out of 3000000
- 20806 multiletter control sequences out of 15000+200000
- 10725 words of font info for 38 fonts, out of 3000000 for 9000
+ 20913 strings out of 492969
+ 377390 string characters out of 3135846
+ 468794 words of memory out of 3000000
+ 24305 multiletter control sequences out of 15000+200000
+ 11863 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,14n,94p,657b,591s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on FysikRapport.pdf (19 pages, 2536438 bytes).
+ 64i,14n,94p,657b,597s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on FysikRapport.pdf (25 pages, 2731886 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 342 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 
